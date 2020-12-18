@@ -105,4 +105,5 @@ def run_GUI(argv):
 
 
 if __name__ == "__main__":
+    # Running the GUI
     run_GUI(argv)
