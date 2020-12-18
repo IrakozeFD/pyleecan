@@ -3,6 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/pyleecan.svg)](https://badge.fury.io/py/pyleecan)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![Build Status](https://travis-ci.com/IrakozeFD/pyleecan.svg?branch=master)](https://travis-ci.com/IrakozeFD/pyleecan)
 
 ## Presentation
 PYLEECAN objective is to provide a **user-friendly, unified, flexible simulation framework for the multiphysic design and optimization of electrical machines and drives** based on fully open-source software.
