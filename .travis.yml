@@ -1,16 +1,15 @@
 - os: windows
   language: sh
-  python:
-    - "3.8"
+  python: "3.8"
   before_install:
         - choco install python3
         - export PATH="/c/Python38:/c/Python38/Scripts:$PATH"
         - python -m pip install --upgrade pip wheel
-        - pip install -U pip
-        - pip install -U pytest
+        - python -m pip install -U pip
+        - python -m pip install -U pytest
   # command to install dependencies
   install:
-    - pip install -r requirements.txt
+    - python -m pip install -r requirements.txt
   # command to run tests
   script:
-    - pytest ./Tests -m "not long"
+    - python -m pytest ./Tests -m "not long"
