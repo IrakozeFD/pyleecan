@@ -101,6 +101,7 @@ def run_GUI(argv):
         # "Normal" GUI
         c.show()
 
+    # exiting the application on closing the GUI
     exit(a.exec_())
 
 
