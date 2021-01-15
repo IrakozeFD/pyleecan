@@ -100,7 +100,6 @@ def test_save_load_machine():
 
     assert result.frame == None
 
-
 def test_save_load_folder_path():
     """Save with a folder path"""
     IPMSM_A = load(join(DATA_DIR, "Machine", "IPMSM_A.json"))
