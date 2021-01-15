@@ -8,8 +8,10 @@ matrix:
       before_install:
         - choco install python3
         - export PATH="/c/Python37:/c/Python37/Scripts:$PATH"
+        - virtualenv $HOME/venv
+        - source $HOME/venv/Scripts/activate
       install:
-        - pip3 install -r requirements.txt
+        - pip install -r requirements.txt
       # command to run tests
       script:
-        - python3 -m pytest ./Tests -m "not long"
+        - python -m pytest ./Tests -m "not long"
